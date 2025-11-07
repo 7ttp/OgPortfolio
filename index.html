@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaibhav Tripathi - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="canvasContainer hidden"></div>
+
+    <div class="scroller">
+      <div class="loading-wrap">
+        <div class="logo">
+          <h1 class="logo-text">VT</h1>
+        </div>
+        <div class="mid">
+          <div class="text">
+            <div>Creative&nbsp; </div>
+            <div>Developer&nbsp; </div>
+            <div>&amp;&nbsp; </div>
+            <div>Freelancer&nbsp; </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/7ttp" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="https://twitter.com/0xbhv" target="_blank" rel="noopener noreferrer" class="social-link" title="Twitter">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="https://linkedin.com/in/0xbhv" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="https://tryhackme.com/p/vaibhav1337" target="_blank" rel="noopener noreferrer" class="social-link" title="TryHackMe">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.705 0C7.54 0 4.902 2.285 4.349 5.291a4.525 4.525 0 0 0-4.107 4.5 4.525 4.525 0 0 0 4.52 4.52h6.761a.625.625 0 1 0 0-1.25H4.761a3.273 3.273 0 0 1-3.27-3.27 3.273 3.273 0 0 1 3.027-3.26.625.625 0 0 0 .54-.615c0-2.593 2.11-4.703 4.703-4.703s4.703 2.11 4.703 4.703a.625.625 0 0 0 .55.62c1.622.174 2.883 1.556 2.883 3.25 0 1.804-1.467 3.271-3.27 3.271h-.469a.625.625 0 1 0 0 1.25h.469c2.632 0 4.77-2.14 4.77-4.77 0-2.43-1.84-4.445-4.166-4.713C14.82 2.42 12.958 0 10.705 0zm2.026 13.018a.313.313 0 0 0-.313.313v7.294c0 .172.14.313.313.313h1.097c.172 0 .312-.14.312-.313v-7.294a.313.313 0 0 0-.312-.313zm-5.545 0a.313.313 0 0 0-.313.313v7.294c0 .172.14.313.313.313h1.097c.172 0 .313-.14.313-.313v-7.294a.313.313 0 0 0-.313-.313z" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="loading-bar">
+          </div>
+        </div>
+
+        <div class="end">
+          <div>Scroll down</div>
+        </div>
+      </div>
+
+      <div class="title hidden">
+        <h1>Transforming ideas into<br> exceptional digital<br> experiences through<br> innovative development.</h1>
+      </div>
+
+      <div class="experience-section">
+        <h2>Professional Experience</h2>
+        <div class="experience-grid">
+          <div class="experience-item">
+            <div class="experience-content">
+              <h3>Infinityramp.com & CodeTheCure.app</h3>
+              <p class="role">Full-Stack Developer</p>
+              <p class="duration">Aug 2024 – Present</p>
+              <p class="description">Architected event-driven systems using Rust, Kafka, and PostgreSQL. Built React/Next.js frontends integrated with Solidity smart contracts. Achieved 99.9% uptime with AWS EC2 CI/CD setup.</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-content">
+              <h3>Trykon.store</h3>
+              <p class="role">Founder & Developer</p>
+              <p class="duration">Mar 2025 – Present</p>
+              <p class="description">Developed secure e-commerce platform with React, Angular, and Node.js. Achieved 242.5K Instagram visits and 25K+ followers organically.</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-content">
+              <h3>Sovis.in</h3>
+              <p class="role">ERP/Net Developer</p>
+              <p class="duration">Dec 2023 – Aug 2024</p>
+              <p class="description">Customized ERPNext modules in Python for multi-currency billing, improving automation by 40%. Built Chart.js dashboards and optimized PostgreSQL performance.</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-content">
+              <h3>Amiparanoid.xyz / Esims.pp.ua</h3>
+              <p class="role">Full-Stack Developer</p>
+              <p class="duration">Mar 2022 – Nov 2023</p>
+              <p class="description">Built Angular/Prisma/PostgreSQL APIs for eSIM management supporting 10K+ users. Deployed secure infrastructure with Docker and NGINX.</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-content">
+              <h3>Easyexch.org</h3>
+              <p class="role">Cryptocurrency Exchange Developer</p>
+              <p class="duration">Aug 2021 – Mar 2022</p>
+              <p class="description">Engineered secure cryptocurrency transaction pipelines with KYC & AML compliance. Achieved 99.9% uptime during market surges.</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-content">
+              <h3>Upwork & Toptal</h3>
+              <p class="role">Freelance Developer</p>
+              <p class="duration">Feb 2019 – Jul 2021</p>
+              <p class="description">Delivered automation and API projects for 20+ international clients. Built Telegram/WhatsApp bots and e-commerce backends with payment integrations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="github-section">
+        <h2>Development Activity</h2>
+        <div class="github-stats">
+          <div class="github-chart">
+            <img src="https://ghchart.rshah.org/7ttp" alt="GitHub Activity Chart" />
+          </div>
+          <div class="github-info">
+            <div class="stat-card">
+              <h3>Repositories</h3>
+              <div class="stat-value" id="repo-count">Loading...</div>
+            </div>
+            <div class="stat-card">
+              <h3>Contributions</h3>
+              <div class="stat-value" id="contribution-count">Loading...</div>
+            </div>
+            <div class="stat-card">
+              <h3>Stars Received</h3>
+              <div class="stat-value" id="stars-count">Loading...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-section">
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul>
+              <li>React.js / Next.js</li>
+              <li>Angular</li>
+              <li>Three.js / WebGL</li>
+              <li>TypeScript</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js / Express</li>
+              <li>Python / Django</li>
+              <li>Rust</li>
+              <li>PostgreSQL / MongoDB</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Blockchain & Cloud</h3>
+            <ul>
+              <li>Solidity / Smart Contracts</li>
+              <li>AWS EC2 / Lambda</li>
+              <li>Docker / Kubernetes</li>
+              <li>Kafka / NGINX</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Security</h3>
+            <ul>
+              <li>OWASP / Pentesting</li>
+              <li>API Hardening</li>
+              <li>GHIDRA</li>
+              <li>DevSecOps</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-section">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid" id="projects-container">
+          <div class="project-item">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Google Cloud">
+            </div>
+            <div class="project-content">
+              <h3>Google Cloud Platform</h3>
+              <p>Contributing to Google Cloud's open-source projects and documentation</p>
+              <a href="https://github.com/GoogleCloudPlatform" target="_blank" rel="noopener noreferrer" class="project-link">
+                View Contributions
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Twitter">
+            </div>
+            <div class="project-content">
+              <h3>Twitter Open Source</h3>
+              <p>Contributing to Twitter's open-source projects and community initiatives</p>
+              <a href="https://github.com/twitter" target="_blank" rel="noopener noreferrer" class="project-link">
+                View Contributions
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Temp Number">
+            </div>
+            <div class="project-content">
+              <h3>Temp Number Service</h3>
+              <p>Professional temporary phone number service for privacy and security</p>
+              <a href="https://amiparanoid.xyz" target="_blank" rel="noopener noreferrer" class="project-link">
+                Visit Website
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Trykon Store">
+            </div>
+            <div class="project-content">
+              <h3>Trykon Store</h3>
+              <p>Premium e-commerce platform for men's gym wear in India</p>
+              <a href="https://trykon.store" target="_blank" rel="noopener noreferrer" class="project-link">
+                Visit Store
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Portfolio Creator">
+            </div>
+            <div class="project-content">
+              <h3>Professional Portfolio Creator</h3>
+              <p>Custom portfolio development services for professionals and businesses</p>
+              <a href="https://aboutzentex.xyz" target="_blank" rel="noopener noreferrer" class="project-link">
+                View Services
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <video class="showreel" autoplay muted loop src="https://ig-medias-prod.ams3.digitaloceanspaces.com/Showreel_Short_3_f3699e2f02.mp4"></video>
+      </section>
+    </div>
+
+    <div class="about">Experience</div>
+    <div class="projects">View Projects</div>
+    <div class="contact">Get in Touch</div>
+
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "vaibhav-tripathi-portfolio",
+  "version": "1.0.0",
+  "description": "Interactive 3D Portfolio Website - Vaibhav Tripathi | Full-Stack Developer, Blockchain Developer, Cybersecurity Specialist",
+  "main": "src/main.js",
+  "type": "module",
+  "author": "7ttp <117663341+7ttp@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7ttp/OgPortfolio.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.19",
+    "lil-gui": "^0.20.0",
+    "postprocessing": "^6.36.6",
+    "simplex-noise": "^4.0.3",
+    "three": "^0.172.0",
+    "troika-three-text": "^0.52.3"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7",
+    "vite-plugin-glsl": "^1.3.1"
+  }
+}
